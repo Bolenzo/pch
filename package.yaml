@@ -46,8 +46,11 @@ executables:
     - -with-rtsopts=-N
     dependencies:
     - pch
-  L1-exe:
-    main:               L1.hs
+  l1-exe:
+    main:               l1.hs
+    source-dirs:        script
+  l2-1-exe:
+    main:               l2-1.hs
     source-dirs:        script
 
 tests:
