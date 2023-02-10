@@ -57,6 +57,17 @@ executable l2-1-exe
       base >=4.7 && <5
   default-language: Haskell2010
 
+executable l2-2-exe
+  main-is: l2-2.hs
+  other-modules:
+      Paths_pch
+  hs-source-dirs:
+      script
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints
+  build-depends:
+      base >=4.7 && <5
+  default-language: Haskell2010
+
 executable pch-exe
   main-is: Main.hs
   other-modules:

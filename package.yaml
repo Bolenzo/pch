@@ -52,6 +52,9 @@ executables:
   l2-1-exe:
     main:               l2-1.hs
     source-dirs:        script
+  l2-2-exe:
+    main:               l2-2.hs
+    source-dirs:        script
 
 tests:
   pch-test:
